@@ -1,1 +1,2 @@
 # AdoptShop
+@Desenvolvedor: Sávio Martins
