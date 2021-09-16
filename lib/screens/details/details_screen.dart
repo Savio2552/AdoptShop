@@ -7,5 +7,6 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       body: Body(),
     );
+
   }
 }

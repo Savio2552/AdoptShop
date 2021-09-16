@@ -12,7 +12,11 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           ImageAndIcons(size: size),
-          Row(),
+          Row(
+            children: [
+              
+            ],
+          ),
         ],
       ),
     );

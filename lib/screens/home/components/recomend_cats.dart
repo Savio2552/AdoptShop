@@ -36,9 +36,10 @@ class Cats extends StatelessWidget {
                   builder: (context) => DetailsScreen(),
                 ),
               );
+
             },
           ),
-         CatCard(
+          CatCard(
             image: "assets/images/bottom_img_3.png",
             title: "Danillo Gentile",
             press: () {},
@@ -84,6 +85,7 @@ class CatCard extends StatelessWidget {
                   bottomLeft: Radius.circular(10),
                   bottomRight: Radius.circular(10),
                 ),
+                             
                 boxShadow: [
                   BoxShadow(
                     offset: Offset(0, 10),
@@ -110,6 +112,11 @@ class CatCard extends StatelessWidget {
                     ),
                   ),
                   Spacer(),
+                   Icon(
+                Icons.favorite_outline_rounded,
+                size: 20, color: Colors.red,
+              ),
+              
                   Text(
                     '',
                     style: Theme.of(context)
